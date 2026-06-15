@@ -1,404 +1,362 @@
-<?php
-
 // ======================================================
-// PHP Operatoren Aufgaben
+// PHP Aufgaben - Alle Arten von Schleifen
 // Herr der Ringe Edition
+// Themen: for, while, do...while, foreach, verschachtelte Schleifen
 // Jede Aufgabe ist als Kommentar formuliert
 // Du kannst direkt unter jeder Aufgabe deinen Code schreiben
 // ======================================================
 
 
 // ------------------------------------------------------
-// LEVEL 1 - Aufbruch aus dem Auenland
+// LEVEL 1 - Das Auenland
+// Thema: for-Schleifen
 // ------------------------------------------------------
 
 
 // Aufgabe 1:
-// Erstelle zwei Variablen:
-// $lembasBrote = 12;
-// $wasserflaschen = 8;
-// Berechne mit dem Plus-Operator, wie viele Vorräte insgesamt vorhanden sind,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um 5-mal auszugeben:
+// "Aragorn greift an!"
 
 
 // Aufgabe 2:
-// Erstelle zwei Variablen:
-// $ausdauer = 30;
-// $verbrauch = 7;
-// Berechne mit dem Minus-Operator, wie viel Ausdauer übrig bleibt,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um die Zahlen von 1 bis 10 auszugeben.
+// Hinter jeder Zahl soll stehen:
+// "Ork besiegt"
 
 
 // Aufgabe 3:
-// Erstelle zwei Variablen:
-// $gefaehrten = 4;
-// $rationenProPerson = 3;
-// Berechne mit dem Multiplikations-Operator, wie viele Rationen insgesamt benötigt werden,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um 8 Pfeile abzuschießen.
+// Ausgabe-Beispiel:
+// "Pfeil Nummer 1 wurde abgeschossen."
 
 
 // Aufgabe 4:
-// Erstelle zwei Variablen:
-// $pfeile = 24;
-// $elben = 6;
-// Berechne mit dem Divisions-Operator, wie viele Pfeile jeder Elb bekommt,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um die 9 Gefährten der Gemeinschaft auszugeben.
+// Ausgabe-Beispiel:
+// "Gefährte 1 ist bereit!"
 
 
 // Aufgabe 5:
-// Erstelle zwei Variablen:
-// $muenzen = 23;
-// $hobbits = 5;
-// Berechne mit dem Modulo-Operator, wie viele Münzen übrig bleiben,
-// wenn sie gleichmäßig verteilt werden,
-// und gib das Ergebnis aus.
-
-
-// ------------------------------------------------------
-// LEVEL 2 - Gefahr in Mittelerde
-// ------------------------------------------------------
+// Verwende eine for-Schleife, um von 10 rückwärts bis 1 zu zählen.
+// Danach soll ausgegeben werden:
+// "Die Schlacht beginnt!"
 
 
 // Aufgabe 6:
-// Erstelle zwei Variablen:
-// $orksImNorden = 15;
-// $orksImSueden = 15;
-// Prüfe mit ==, ob in beiden Richtungen gleich viele Orks sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Verwende eine for-Schleife, um alle geraden Zahlen von 2 bis 20 auszugeben.
 
 
 // Aufgabe 7:
-// Erstelle zwei Variablen:
-// $waffe1 = "Schwert";
-// $waffe2 = "Bogen";
-// Prüfe mit !=, ob die beiden Waffen verschieden sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Verwende eine for-Schleife, um alle ungeraden Zahlen von 1 bis 15 auszugeben.
 
 
 // Aufgabe 8:
-// Erstelle zwei Variablen:
-// $schildStaerke = 80;
-// $mindestWert = 75;
-// Prüfe mit >=, ob das Schild stark genug ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Verwende eine for-Schleife, um 7 Zwergen-Schätze zu finden.
+// Ausgabe-Beispiel:
+// "Schatz 1 gefunden!"
+
+
+// ------------------------------------------------------
+// LEVEL 2 - Reise durch Mittelerde
+// Thema: while-Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 9:
-// Erstelle zwei Variablen:
-// $leben = 9;
-// $kritisch = 10;
-// Prüfe mit <, ob die Lebenspunkte kritisch sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $erfahrung = 0;
+// Verwende eine while-Schleife, um immer 20 Erfahrungspunkte hinzuzufügen,
+// bis mindestens 100 erreicht sind.
+// Gib den aktuellen Wert in jeder Runde aus.
 
 
 // Aufgabe 10:
-// Erstelle zwei Variablen:
-// $lautstaerke = 40;
-// $grenze = 50;
-// Prüfe mit <=, ob die Gefährten leise genug sind,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// LEVEL 3 - Strenge Vergleiche in Bruchtal
-// ------------------------------------------------------
+// Erstelle eine Variable $lebenspunkte = 10;
+// Verwende eine while-Schleife, um einen Helden um jeweils 15 LP zu heilen,
+// bis er mindestens 100 LP erreicht.
+// Gib den aktuellen Wert in jeder Runde aus.
 
 
 // Aufgabe 11:
-// Erstelle zwei Variablen:
-// $ringCode = 5;
-// $ringCodeText = "5";
-// Prüfe zuerst mit ==, ob beide gleich sind,
-// und gib das Ergebnis mit var_dump() aus.
-// Prüfe danach mit ===, ob beide exakt gleich sind,
-// und gib auch dieses Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $pfeile = 5;
+// Verwende eine while-Schleife, um alle Pfeile nacheinander zu verschießen.
+// Ausgabe-Beispiel:
+// "Ein Pfeil wurde verschossen. Noch übrig: 4"
 
 
 // Aufgabe 12:
-// Erstelle zwei Variablen:
-// $macht = 100;
-// $machtText = "100";
-// Prüfe mit !==, ob sich beide Werte in Wert oder Datentyp unterscheiden,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $orks = 3;
+// Verwende eine while-Schleife, um 3 Orks zu besiegen.
+// Gib nach jedem besiegten Ork eine Meldung aus.
 
 
 // Aufgabe 13:
-// Erstelle zwei Variablen:
-// $torCode1 = 404;
-// $torCode2 = 404;
-// Prüfe mit ===, ob beide Werte exakt gleich sind,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// LEVEL 4 - Logische Operatoren auf der Reise
-// ------------------------------------------------------
+// Erstelle eine Variable $ringe = 0;
+// Verwende eine while-Schleife, um so lange magische Ringe zu sammeln,
+// bis du 8 gefunden hast.
+// Gib nach jedem Ring den aktuellen Stand aus.
 
 
 // Aufgabe 14:
-// Erstelle zwei Variablen:
-// $hatRing = true;
-// $hatBegleiter = true;
-// Prüfe mit &&, ob beides vorhanden ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $schritte = 0;
+// Verwende eine while-Schleife, um 10 Schritte durch Mittelerde zu gehen.
+// Gib jeden Schritt aus.
+
+
+// ------------------------------------------------------
+// LEVEL 3 - Die Minen von Moria
+// Thema: do...while-Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 15:
-// Erstelle zwei Variablen:
-// $hatPferd = false;
-// $hatAdler = true;
-// Prüfe mit ||, ob mindestens eine Reisemöglichkeit vorhanden ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $versuch = 1;
+// Verwende eine do...while-Schleife, um 3 Versuche auszugeben,
+// die Tore von Moria zu öffnen.
 
 
 // Aufgabe 16:
-// Erstelle eine Variable:
-// $istVomRingVerfuehrt = false;
-// Prüfe mit !, ob die Person nicht vom Ring verführt wurde,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $runde = 1;
+// Verwende eine do...while-Schleife, um 5 Kampfrunden gegen Orks auszugeben.
 
 
 // Aufgabe 17:
-// Erstelle zwei Variablen:
-// $hatSchluessel = false;
-// $kenntElbenwort = true;
-// Prüfe, ob das Tor geöffnet werden kann,
-// wenn entweder ein Schlüssel vorhanden ist oder das Elbenwort bekannt ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $heilung = 1;
+// Verwende eine do...while-Schleife, um 4 Heilkräuter zu benutzen.
+// Gib nach jedem Einsatz eine Meldung aus.
 
 
 // Aufgabe 18:
-// Erstelle zwei Variablen:
-// $ausdauer = 70;
-// $lebt = true;
-// Prüfe mit &&, ob der Gefährte lebt und genug Ausdauer besitzt,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// LEVEL 5 - Vorräte in Lothlórien
-// ------------------------------------------------------
+// Erstelle eine Variable $gegner = 1;
+// Verwende eine do...while-Schleife, um 6 Gegner zu entdecken.
+// Gib jeden Gegner als Nummer aus.
 
 
 // Aufgabe 19:
-// Erstelle eine Variable:
-// $vorrat = 50;
-// Erhöhe den Vorrat mit += um 20
-// und gib das Ergebnis aus.
+// Erstelle eine Variable $edelsteine = 1;
+// Verwende eine do...while-Schleife, um 5 Edelsteine zu sammeln.
 
 
 // Aufgabe 20:
-// Erstelle eine Variable:
-// $leben = 100;
-// Verringere die Lebenspunkte mit -= um 35
-// und gib das Ergebnis aus.
+// Erstelle eine Variable $festung = 1;
+// Verwende eine do...while-Schleife, um 4 Festungen zu betreten.
+// Gib aus:
+// "Festung X betreten"
+
+
+// ------------------------------------------------------
+// LEVEL 4 - Die Gemeinschaft des Rings
+// Thema: foreach-Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 21:
-// Erstelle eine Variable:
-// $schildStaerke = 10;
-// Verstärke das Schild mit *= 3
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 6 Charakteren:
+// "Frodo", "Sam", "Aragorn", "Legolas", "Gimli", "Gandalf"
+// Verwende eine foreach-Schleife, um alle Charaktere auszugeben.
 
 
 // Aufgabe 22:
-// Erstelle eine Variable:
-// $wasser = 24;
-// Teile die Wassermenge mit /= durch 6
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 5 Gegenständen:
+// "Schwert", "Bogen", "Axt", "Ring", "Lembas"
+// Gib alle Gegenstände mit foreach aus.
 
 
 // Aufgabe 23:
-// Erstelle eine Variable:
-// $ringe = 17;
-// Nutze %= mit 5
-// und gib das Ergebnis aus.
-
-
-// ------------------------------------------------------
-// LEVEL 6 - Marsch nach Mordor
-// ------------------------------------------------------
+// Erstelle ein Array mit 4 Herrschern:
+// "Aragorn", "Thranduil", "Theoden", "Denethor"
+// Gib alle Namen mit foreach aus.
 
 
 // Aufgabe 24:
-// Erstelle eine Variable:
-// $orks = 99;
-// Erhöhe die Variable mit dem Inkrement-Operator um 1
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 5 Völkern:
+// "Menschen", "Elben", "Zwerge", "Hobbits", "Ents"
+// Gib jedes Volk einzeln aus.
 
 
 // Aufgabe 25:
-// Erstelle eine Variable:
-// $pfeile = 10;
-// Verringere die Variable mit dem Dekrement-Operator um 1
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 3 mächtigen Wesen:
+// "Gandalf", "Galadriel", "Elrond"
+// Gib alle mit einer passenden Meldung aus.
 
 
 // Aufgabe 26:
-// Erstelle eine Variable:
-// $tageUnterwegs = 3;
-// Verwende zuerst $tageUnterwegs++ und gib den Wert aus.
-// Probiere danach ++$tageUnterwegs aus und gib den Wert aus.
-// Beobachte den Unterschied.
+// Erstelle ein Array mit 5 Orten:
+// "Auenland", "Bruchtal", "Moria", "Gondor", "Mordor"
+// Gib jeden Ort mit foreach aus.
 
 
 // ------------------------------------------------------
-// LEVEL 7 - Botschaften aus Mittelerde
+// LEVEL 5 - Kampf gegen die Orks
+// Thema: Schleifen mit Bedingungen
 // ------------------------------------------------------
 
 
 // Aufgabe 27:
-// Erstelle zwei Variablen:
-// $name = "Frodo";
-// $meldung = " trägt den Ring";
-// Verbinde beide mit dem String-Operator . zu einem Satz
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um die Zahlen von 1 bis 20 auszugeben.
+// Wenn die Zahl gerade ist, gib zusätzlich aus:
+// "Treffer!"
 
 
 // Aufgabe 28:
-// Erstelle eine Variable:
-// $warnung = "Achtung, ";
-// Hänge mit dem Operator .= den Text "die Orks kommen näher!" an
-// und gib das Ergebnis aus.
+// Verwende eine while-Schleife, um von 1 bis 10 zu zählen.
+// Gib nur Zahlen aus, die größer als 5 sind.
 
 
 // Aufgabe 29:
-// Erstelle drei Variablen:
-// $teil1 = "Ring";
-// $leerzeichen = " ";
-// $teil2 = "gefunden";
-// Verbinde alles zu einer vollständigen Meldung
-// und gib das Ergebnis aus.
-
-
-// ------------------------------------------------------
-// BOSSFIGHT - Die Schlacht um Helms Klamm
-// ------------------------------------------------------
+// Verwende eine for-Schleife, um die Zahlen von 1 bis 15 auszugeben.
+// Wenn die Zahl durch 3 teilbar ist, gib stattdessen aus:
+// "Orkangriff!"
 
 
 // Aufgabe 30:
-// Erstelle zwei Variablen:
-// $orksVorDerMauer = 120;
-// $verteidigerInDerBurg = 115;
-// Prüfe mit einem Vergleichsoperator, ob mehr Orks vor der Mauer stehen,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle ein Array mit Helden-Leveln:
+// [5, 12, 18, 24, 31]
+// Verwende foreach und gib nur die Level aus,
+// die größer oder gleich 18 sind.
 
 
 // Aufgabe 31:
-// Erstelle drei Variablen:
-// $hatSchwert = true;
-// $hatSchild = true;
-// $hatZeitZurVorbereitung = false;
-// Prüfe mit logischen Operatoren, ob ein Gefährte vorbereitet ist,
-// wenn er Schwert und Schild hat oder genug Zeit zur Vorbereitung hatte,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle ein Array mit Namen:
+// ["Frodo", "Sam", "Gandalf", "Merry", "Legolas"]
+// Gib nur die Zauberer oder Elben aus.
 
 
 // Aufgabe 32:
-// Erstelle zwei Variablen:
-// $leben = 45;
-// $schaden = 18;
-// Ziehe den Schaden vom Leben ab
-// und prüfe danach mit einem Vergleichsoperator, ob $leben noch größer als 0 ist.
-// Gib erst die verbleibenden Lebenspunkte und dann das Ergebnis mit var_dump() aus.
+// Verwende eine while-Schleife, um von 10 rückwärts bis 1 zu zählen.
+// Wenn du bei 5 angekommen bist, gib zusätzlich aus:
+// "Halbzeit der Reise!"
+
+
+// ------------------------------------------------------
+// BOSSFIGHT - Helms Klamm
+// Thema: Verschachtelte Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 33:
-// Erstelle zwei Variablen:
-// $ringeGesamt = 20;
-// $ringeGefunden = 3;
-// Berechne, wie viele Ringe noch fehlen,
-// und gib das Ergebnis aus.
+// Verwende zwei verschachtelte for-Schleifen,
+// um 3 Kampfrunden mit jeweils 2 Angriffen auszugeben.
 
 
 // Aufgabe 34:
-// Erstelle zwei Variablen:
-// $tag = 9;
-// $stunde = 0.75;
-// Addiere beides und gib das Ergebnis aus.
-// Das Ziel ist Tag 9,75 der Reise.
+// Verwende zwei verschachtelte for-Schleifen,
+// um 5 Reihen von Bogenschützen auszugeben.
+// Jede Reihe soll 3 Bogenschützen enthalten.
 
 
 // Aufgabe 35:
-// Erstelle zwei Variablen:
-// $ort = "Mordor";
-// $ringDabei = true;
-// Prüfe mit &&, ob beides zutrifft,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// ULTRA-BOSS - Der Schicksalsberg
-// ------------------------------------------------------
+// Verwende zwei verschachtelte Schleifen,
+// um 4 Festungen mit jeweils 3 Wachen auszugeben.
 
 
 // Aufgabe 36:
-// Erstelle drei Variablen:
-// $ausdauer = 100;
-// $lembasFund = 25;
-// $verbrauch = 10;
-// Addiere zuerst den Fund zur Ausdauer,
-// ziehe danach den Verbrauch ab
-// und gib das Endergebnis aus.
+// Erstelle ein Array mit 3 Gruppen,
+// wobei jede Gruppe 2 Gefährten enthält.
+// Gib alle Gruppen und alle Gefährten mit
+// verschachtelten foreach-Schleifen aus.
 
 
 // Aufgabe 37:
-// Erstelle zwei Variablen:
-// $ausdauer = 80;
-// $kostenProEtappe = 15;
-// Berechne mit /, wie viele Etappen theoretisch möglich sind,
-// und gib das Ergebnis aus.
+// Verwende eine verschachtelte Schleife,
+// um 3 Trainingstage mit jeweils 4 Übungen auszugeben.
 
 
 // Aufgabe 38:
-// Erstelle zwei Variablen:
-// $restAusdauer = 80;
-// $kosten = 15;
-// Berechne mit %, wie viel Ausdauer nach möglichst gleichmäßiger Nutzung übrig bleibt,
-// und gib das Ergebnis aus.
+// Verwende zwei verschachtelte for-Schleifen,
+// um folgendes Muster auszugeben:
+//
+// *
+// **
+// ***
+// ****
+// *****
+
+
+// ------------------------------------------------------
+// ULTRA-BOSS - Mordor
+// ------------------------------------------------------
 
 
 // Aufgabe 39:
-// Erstelle zwei Variablen:
-// $torCode = 200;
-// $torCodeText = "200";
-// Prüfe mit == und mit === den Unterschied,
-// und gib beide Ergebnisse mit var_dump() aus.
+// Erstelle ein Array mit Lebenspunkten:
+// [100, 75, 30, 10, 55]
+// Verwende foreach und gib nur die Helden aus,
+// deren Lebenspunkte unter 50 liegen.
 
 
 // Aufgabe 40:
-// Erstelle drei Variablen:
-// $kenntWeg = true;
-// $hatKarte = false;
-// $hatGandalf = true;
-// Prüfe mit logischen Operatoren, ob mindestens eine wichtige Hilfe vorhanden ist,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// MEGA-CHAMPION - Kreativaufgaben
-// ------------------------------------------------------
+// Erstelle ein Array mit Namen:
+// ["Frodo", "Sam", "Aragorn", "Legolas"]
+// Verwende foreach und gib zu jedem Namen aus:
+// "<Name> ist bereit für die Reise!"
 
 
 // Aufgabe 41:
-// Erstelle eigene Variablen für zwei Gefährtengruppen.
-// Nutze mindestens drei verschiedene Operatoren,
-// um Vorräte zu addieren, Gegner zu vergleichen und das Ergebnis auszugeben.
+// Erstelle ein Array mit Zahlen von 1 bis 10.
+// Gib mit foreach nur die geraden Zahlen aus.
 
 
 // Aufgabe 42:
-// Erstelle eigene Variablen für einen Gefährten,
-// zum Beispiel:
-// $name, $leben, $ausdauer, $schaden
-// Nutze Operatoren, um einen kleinen Kampf gegen Orks zu berechnen.
+// Erstelle ein Array mit Artefakten:
+// ["Der Eine Ring", "Anduril", "Palantir", "Mithril"]
+// Gib mit foreach alle Artefakte mit Nummerierung aus.
 
 
 // Aufgabe 43:
-// Erstelle eigene Variablen für ein Lager,
-// zum Beispiel:
-// $vorrat, $verlust, $fund
-// Nutze passende Operatoren, um das Ergebnis zu berechnen
-// und etwas Sinnvolles auszugeben.
+// Erstelle ein Array mit Erfahrungspunkten:
+// [50, 120, 200, 80, 300]
+// Berechne mit einer Schleife die Gesamtsumme.
+
+
+// Aufgabe 44:
+// Erstelle ein Array mit Pfeilen:
+// [5, 10, 3, 7]
+// Berechne mit einer Schleife,
+// wie viele Pfeile insgesamt vorhanden sind.
+
+
+// ------------------------------------------------------
+// MEGA-CHAMPION - Die Zerstörung des Rings
+// ------------------------------------------------------
+
+
+// Aufgabe 45:
+// Verwende eine for-Schleife,
+// um 10 Orks erscheinen zu lassen.
+// Bei jedem dritten Ork soll zusätzlich ausgegeben werden:
+// "Uruk-hai entdeckt!"
+
+
+// Aufgabe 46:
+// Verwende eine while-Schleife,
+// um Erfahrung zu sammeln, bis mindestens 200 erreicht sind.
+// In jeder Runde bekommst du 25 Erfahrungspunkte.
+
+
+// Aufgabe 47:
+// Verwende eine do...while-Schleife,
+// um mindestens einmal einen Pfeil abzuschießen,
+// auch wenn nur noch 1 Pfeil vorhanden ist.
+
+
+// Aufgabe 48:
+// Erstelle ein Array mit 6 Charakteren und gib alle aus.
+// Wenn ein Charakter "Gandalf" oder "Galadriel" ist,
+// soll zusätzlich ausgegeben werden:
+// "Mächtiges Wesen!"
+
+
+// Aufgabe 49:
+// Verwende eine verschachtelte Schleife,
+// um 3 Schlachten mit jeweils 4 Kämpfen auszugeben.
+
+
+// Aufgabe 50:
+// Erstelle deine eigene Schleifen-Challenge mit:
+// - mindestens 1 for-Schleife
+// - mindestens 1 while-Schleife
+// - mindestens 1 foreach-Schleife
+// Thema: Herr der Ringe, Mittelerde oder Mordor
 
 
 // ------------------------------------------------------
@@ -406,60 +364,43 @@
 // ------------------------------------------------------
 
 
-// Zusatzaufgabe 44:
-// Erstelle zwei Variablen:
-// $torVerschlossen = true;
-// $brueckeGesichert = true;
-// Prüfe mit &&, ob die Festung gesichert ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Zusatzaufgabe 51:
+// Verwende eine for-Schleife,
+// um alle Zahlen von 1 bis 50 auszugeben,
+// die durch 5 teilbar sind.
 
 
-// Zusatzaufgabe 45:
-// Erstelle eine Variable:
-// $anzahlOrks = 101;
-// Prüfe mit dem Modulo-Operator, ob die Zahl gerade oder ungerade ist.
-// Tipp:
-// Wenn der Rest bei Division durch 2 gleich 0 ist, ist die Zahl gerade.
+// Zusatzaufgabe 52:
+// Erstelle ein Array mit 5 Gefährten und gib sie rückwärts aus.
 
 
-// Zusatzaufgabe 46:
-// Erstelle zwei Variablen:
-// $vorrat = 50;
-// $fund = 12;
-// Addiere den Fund mit +=
-// und gib das Ergebnis aus.
+// Zusatzaufgabe 53:
+// Verwende eine while-Schleife,
+// um 100 Schritte durch Mordor zu gehen.
+// Alle 20 Schritte soll ausgegeben werden:
+// "Der Ring wird schwerer..."
 
 
-// Zusatzaufgabe 47:
-// Erstelle zwei Variablen:
-// $wort1 = "Ork";
-// $wort2 = "Alarm";
-// Verbinde beide Wörter mit einem Leerzeichen dazwischen
-// und gib das Ergebnis aus.
+// Zusatzaufgabe 54:
+// Verwende eine do...while-Schleife,
+// um 5-mal Heilkräuter zu benutzen.
 
 
-// Zusatzaufgabe 48:
-// Erstelle eine Variable:
-// $ausdauer = 500;
-// Verringere die Zahl mit -= um 75
-// und gib das Ergebnis aus.
+// Zusatzaufgabe 55:
+// Erstelle ein Array mit 5 Helden-Leveln und berechne den Durchschnitt.
 
 
-// Zusatzaufgabe 49:
-// Erstelle zwei Variablen:
-// $orksWesten = 30;
-// $orksOsten = 45;
-// Prüfe mit >, wo mehr Orks sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Zusatzaufgabe 56:
+// Gib mit einer Schleife die Zahlen von 1 bis 30 aus.
+// Bei Zahlen, die durch 3 teilbar sind, gib "Gandalf" aus.
+// Bei Zahlen, die durch 5 teilbar sind, gib "Frodo" aus.
+// Bei Zahlen, die durch 3 und 5 teilbar sind, gib "Mittelerde" aus.
 
 
-// Zusatzaufgabe 50:
-// Erstelle eigene Variablen und baue eine kleine Herr-der-Ringe-Rechnung,
-// in der du mindestens verwendest:
-// - einen arithmetischen Operator
-// - einen Vergleichsoperator
-// - einen logischen Operator
-// - einen String-Operator
-
-
-?>
+// Zusatzaufgabe 57:
+// Verwende eine verschachtelte Schleife,
+// um eine kleine Tabelle von 1 bis 5 auszugeben.
+// Beispiel:
+// 1 2 3 4 5
+// 1 2 3 4 5
+// 1 2 3 4 5
