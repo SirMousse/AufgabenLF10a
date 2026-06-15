@@ -1,465 +1,364 @@
 <?php
 
 // ======================================================
-// PHP Operatoren Aufgaben
+// PHP Aufgaben - Alle Arten von Schleifen
 // Harry Potter Edition
+// Themen: for, while, do...while, foreach, verschachtelte Schleifen
 // Jede Aufgabe ist als Kommentar formuliert
 // Du kannst direkt unter jeder Aufgabe deinen Code schreiben
 // ======================================================
 
 
 // ------------------------------------------------------
-// LEVEL 1 - Erster Tag in Hogwarts
+// LEVEL 1 - Der Hogwarts Express
+// Thema: for-Schleifen
 // ------------------------------------------------------
 
 
 // Aufgabe 1:
-// Erstelle zwei Variablen:
-// $schokofroesche = 12;
-// $bertieBottsBohnen = 8;
-// Berechne mit dem Plus-Operator, wie viele Süßigkeiten insgesamt vorhanden sind,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um 5-mal auszugeben:
+// "Harry wirkt einen Zauberspruch!"
 
 
 // Aufgabe 2:
-// Erstelle zwei Variablen:
-// $zauberkraft = 30;
-// $verbrauch = 7;
-// Berechne mit dem Minus-Operator, wie viel Zauberkraft übrig bleibt,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um die Zahlen von 1 bis 10 auszugeben.
+// Hinter jeder Zahl soll stehen:
+// "Hauspunkte erhalten"
 
 
 // Aufgabe 3:
-// Erstelle zwei Variablen:
-// $schueler = 4;
-// $zauberstaebeProSchueler = 3;
-// Berechne mit dem Multiplikations-Operator, wie viele Zauberstäbe insgesamt benötigt werden,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um 8 Zaubersprüche zu üben.
+// Ausgabe-Beispiel:
+// "Zauberspruch Nummer 1 geübt."
 
 
 // Aufgabe 4:
-// Erstelle zwei Variablen:
-// $kessel = 24;
-// $haeuser = 4;
-// Berechne mit dem Divisions-Operator, wie viele Kessel jedes Haus bekommt,
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um die 7 Schuljahre in Hogwarts auszugeben.
+// Ausgabe-Beispiel:
+// "Schuljahr 1 abgeschlossen!"
 
 
 // Aufgabe 5:
-// Erstelle zwei Variablen:
-// $goldgalleonen = 23;
-// $freunde = 5;
-// Berechne mit dem Modulo-Operator, wie viele Galleonen übrig bleiben,
-// wenn sie gleichmäßig verteilt werden,
-// und gib das Ergebnis aus.
-
-
-// ------------------------------------------------------
-// LEVEL 2 - Zauberprüfung
-// ------------------------------------------------------
+// Verwende eine for-Schleife, um von 10 rückwärts bis 1 zu zählen.
+// Danach soll ausgegeben werden:
+// "Das magische Duell beginnt!"
 
 
 // Aufgabe 6:
-// Erstelle zwei Variablen:
-// $punkteGryffindor = 15;
-// $punkteSlytherin = 15;
-// Prüfe mit ==, ob beide Häuser gleich viele Punkte haben,
-// und gib das Ergebnis mit var_dump() aus.
+// Verwende eine for-Schleife, um alle geraden Zahlen von 2 bis 20 auszugeben.
 
 
 // Aufgabe 7:
-// Erstelle zwei Variablen:
-// $zauber1 = "Expelliarmus";
-// $zauber2 = "Lumos";
-// Prüfe mit !=, ob die beiden Zauber verschieden sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Verwende eine for-Schleife, um alle ungeraden Zahlen von 1 bis 15 auszugeben.
 
 
 // Aufgabe 8:
-// Erstelle zwei Variablen:
-// $schildzauber = 80;
-// $mindestWert = 75;
-// Prüfe mit >=, ob der Schutzzauber stark genug ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Verwende eine for-Schleife, um 7 Horkruxe zu finden.
+// Ausgabe-Beispiel:
+// "Horkrux 1 gefunden!"
+
+
+// ------------------------------------------------------
+// LEVEL 2 - Unterricht in Hogwarts
+// Thema: while-Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 9:
-// Erstelle zwei Variablen:
-// $leben = 9;
-// $kritisch = 10;
-// Prüfe mit <, ob die Lebenspunkte kritisch sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $hauspunkte = 0;
+// Verwende eine while-Schleife, um immer 20 Hauspunkte hinzuzufügen,
+// bis mindestens 100 Hauspunkte erreicht sind.
+// Gib den aktuellen Wert in jeder Runde aus.
 
 
 // Aufgabe 10:
-// Erstelle zwei Variablen:
-// $lautstaerke = 40;
-// $grenze = 50;
-// Prüfe mit <=, ob der Zauberspruch leise genug gesprochen wurde,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// LEVEL 3 - Strenge Vergleiche in der Bibliothek
-// ------------------------------------------------------
+// Erstelle eine Variable $magie = 10;
+// Verwende eine while-Schleife, um die Magie eines Zauberers
+// um jeweils 15 Punkte zu erhöhen,
+// bis mindestens 100 erreicht sind.
+// Gib den aktuellen Wert in jeder Runde aus.
 
 
 // Aufgabe 11:
-// Erstelle zwei Variablen:
-// $buchCode = 5;
-// $buchCodeText = "5";
-// Prüfe zuerst mit ==, ob beide gleich sind,
-// und gib das Ergebnis mit var_dump() aus.
-// Prüfe danach mit ===, ob beide exakt gleich sind,
-// und gib auch dieses Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $zaubertraenke = 5;
+// Verwende eine while-Schleife, um alle Zaubertränke aufzubrauchen.
+// Ausgabe-Beispiel:
+// "Ein Zaubertrank wurde benutzt. Noch übrig: 4"
 
 
 // Aufgabe 12:
-// Erstelle zwei Variablen:
-// $trankStaerke = 100;
-// $trankStaerkeText = "100";
-// Prüfe mit !==, ob sich beide Werte in Wert oder Datentyp unterscheiden,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $todesser = 3;
+// Verwende eine while-Schleife, um 3 Todesser zu besiegen.
+// Gib nach jedem besiegten Gegner eine Meldung aus.
 
 
 // Aufgabe 13:
-// Erstelle zwei Variablen:
-// $raumCode1 = 404;
-// $raumCode2 = 404;
-// Prüfe mit ===, ob beide Werte exakt gleich sind,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// LEVEL 4 - Logische Operatoren im Unterricht
-// ------------------------------------------------------
+// Erstelle eine Variable $punkte = 0;
+// Verwende eine while-Schleife, um so lange Hauspunkte zu sammeln,
+// bis du 200 Punkte erreicht hast.
+// Gib nach jeder Runde den aktuellen Stand aus.
 
 
 // Aufgabe 14:
-// Erstelle zwei Variablen:
-// $hatZauberstab = true;
-// $kenntSpruch = true;
-// Prüfe mit &&, ob beides zutrifft,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $stufen = 0;
+// Verwende eine while-Schleife, um 10 Stufen der beweglichen Treppe
+// hinaufzugehen.
+// Gib jede Stufe aus.
+
+
+// ------------------------------------------------------
+// LEVEL 3 - Der Verbotene Wald
+// Thema: do...while-Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 15:
-// Erstelle zwei Variablen:
-// $hatBesen = false;
-// $hatFlohpulver = true;
-// Prüfe mit ||, ob mindestens eine Reisemöglichkeit vorhanden ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $versuch = 1;
+// Verwende eine do...while-Schleife, um 3 Versuche auszugeben,
+// einen Hippogreif zu zähmen.
 
 
 // Aufgabe 16:
-// Erstelle eine Variable:
-// $istVerflucht = false;
-// Prüfe mit !, ob die Person nicht verflucht ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $runde = 1;
+// Verwende eine do...while-Schleife, um 5 Duellrunden auszugeben.
 
 
 // Aufgabe 17:
-// Erstelle zwei Variablen:
-// $hatPasswort = false;
-// $kenntZauberspruch = true;
-// Prüfe, ob der Gemeinschaftsraum betreten werden kann,
-// wenn entweder das Passwort bekannt ist oder der passende Zauberspruch beherrscht wird,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle eine Variable $trank = 1;
+// Verwende eine do...while-Schleife, um 4 Heiltränke zu benutzen.
+// Gib nach jedem Einsatz eine Meldung aus.
 
 
 // Aufgabe 18:
-// Erstelle zwei Variablen:
-// $magie = 70;
-// $lebt = true;
-// Prüfe mit &&, ob die Person lebt und genug Magie besitzt,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// LEVEL 5 - Zuweisungsoperatoren in der Winkelgasse
-// ------------------------------------------------------
+// Erstelle eine Variable $wesen = 1;
+// Verwende eine do...while-Schleife, um 6 magische Wesen zu entdecken.
+// Gib jedes Wesen als Nummer aus.
 
 
 // Aufgabe 19:
-// Erstelle eine Variable:
-// $galleonen = 50;
-// Erhöhe die Galleonen mit += um 20
-// und gib das Ergebnis aus.
+// Erstelle eine Variable $federn = 1;
+// Verwende eine do...while-Schleife, um 5 Phönixfedern zu sammeln.
 
 
 // Aufgabe 20:
-// Erstelle eine Variable:
-// $leben = 100;
-// Verringere die Lebenspunkte mit -= um 35
-// und gib das Ergebnis aus.
+// Erstelle eine Variable $raum = 1;
+// Verwende eine do...while-Schleife, um 4 Klassenräume zu betreten.
+// Gib aus:
+// "Klassenraum X betreten"
+
+
+// ------------------------------------------------------
+// LEVEL 4 - Die Häuser von Hogwarts
+// Thema: foreach-Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 21:
-// Erstelle eine Variable:
-// $schutzzauber = 10;
-// Verstärke den Schutzzauber mit *= 3
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 6 Charakteren:
+// "Harry", "Hermine", "Ron", "Neville", "Luna", "Ginny"
+// Verwende eine foreach-Schleife, um alle Charaktere auszugeben.
 
 
 // Aufgabe 22:
-// Erstelle eine Variable:
-// $trank = 24;
-// Teile den Trank mit /= durch 6
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 5 Gegenständen:
+// "Zauberstab", "Besen", "Umhang", "Zaubertrank", "Karte des Rumtreibers"
+// Gib alle Gegenstände mit foreach aus.
 
 
 // Aufgabe 23:
-// Erstelle eine Variable:
-// $bohnen = 17;
-// Nutze %= mit 5
-// und gib das Ergebnis aus.
-
-
-// ------------------------------------------------------
-// LEVEL 6 - Magische Veränderungen
-// ------------------------------------------------------
+// Erstelle ein Array mit 4 Hausleitern:
+// "McGonagall", "Snape", "Sprout", "Flitwick"
+// Gib alle Namen mit foreach aus.
 
 
 // Aufgabe 24:
-// Erstelle eine Variable:
-// $hauspunkte = 99;
-// Erhöhe die Variable mit dem Inkrement-Operator um 1
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 4 Häusern:
+// "Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"
+// Gib jedes Haus einzeln aus.
 
 
 // Aufgabe 25:
-// Erstelle eine Variable:
-// $zaubertraenke = 10;
-// Verringere die Variable mit dem Dekrement-Operator um 1
-// und gib das Ergebnis aus.
+// Erstelle ein Array mit 3 mächtigen Zauberern:
+// "Dumbledore", "Voldemort", "Grindelwald"
+// Gib alle mit einer passenden Meldung aus.
 
 
 // Aufgabe 26:
-// Erstelle eine Variable:
-// $tageInHogwarts = 3;
-// Verwende zuerst $tageInHogwarts++ und gib den Wert aus.
-// Probiere danach ++$tageInHogwarts aus und gib den Wert aus.
-// Beobachte den Unterschied.
+// Erstelle ein Array mit 5 Orten:
+// "Hogwarts", "Hogsmeade", "Winkelgasse", "Verbotener Wald", "Ministerium"
+// Gib jeden Ort mit foreach aus.
 
 
 // ------------------------------------------------------
-// LEVEL 7 - Zaubersprüche und Nachrichten
+// LEVEL 5 - Kampf gegen die Dunklen Mächte
+// Thema: Schleifen mit Bedingungen
 // ------------------------------------------------------
 
 
 // Aufgabe 27:
-// Erstelle zwei Variablen:
-// $name = "Harry";
-// $meldung = " wirkt Expelliarmus";
-// Verbinde beide mit dem String-Operator . zu einem Satz
-// und gib das Ergebnis aus.
+// Verwende eine for-Schleife, um die Zahlen von 1 bis 20 auszugeben.
+// Wenn die Zahl gerade ist, gib zusätzlich aus:
+// "Zauber gelungen!"
 
 
 // Aufgabe 28:
-// Erstelle eine Variable:
-// $warnung = "Achtung, ";
-// Hänge mit dem Operator .= den Text "ein Dementor nähert sich!" an
-// und gib das Ergebnis aus.
+// Verwende eine while-Schleife, um von 1 bis 10 zu zählen.
+// Gib nur Zahlen aus, die größer als 5 sind.
 
 
 // Aufgabe 29:
-// Erstelle drei Variablen:
-// $teil1 = "Karte";
-// $leerzeichen = " ";
-// $teil2 = "geöffnet";
-// Verbinde alles zu einer vollständigen Meldung
-// und gib das Ergebnis aus.
-
-
-// ------------------------------------------------------
-// BOSSFIGHT - Kampf gegen die Dunklen Künste
-// ------------------------------------------------------
+// Verwende eine for-Schleife, um die Zahlen von 1 bis 15 auszugeben.
+// Wenn die Zahl durch 3 teilbar ist, gib stattdessen aus:
+// "Expelliarmus!"
 
 
 // Aufgabe 30:
-// Erstelle zwei Variablen:
-// $todesserImWald = 120;
-// $aurorenInHogwarts = 115;
-// Prüfe mit einem Vergleichsoperator, ob mehr Todesser im Wald sind,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle ein Array mit Magie-Leveln:
+// [5, 12, 18, 24, 31]
+// Verwende foreach und gib nur die Level aus,
+// die größer oder gleich 18 sind.
 
 
 // Aufgabe 31:
-// Erstelle drei Variablen:
-// $hatZauberstab = true;
-// $hatHeiltrank = true;
-// $hatZeitZumUeben = false;
-// Prüfe mit logischen Operatoren, ob ein Zauberer vorbereitet ist,
-// wenn er einen Zauberstab und einen Heiltrank hat oder genug Zeit zum Üben hatte,
-// und gib das Ergebnis mit var_dump() aus.
+// Erstelle ein Array mit Namen:
+// ["Harry", "Ron", "Dumbledore", "Hermine", "Voldemort"]
+// Gib nur die mächtigen Zauberer aus.
 
 
 // Aufgabe 32:
-// Erstelle zwei Variablen:
-// $leben = 45;
-// $schaden = 18;
-// Ziehe den Schaden vom Leben ab
-// und prüfe danach mit einem Vergleichsoperator, ob $leben noch größer als 0 ist.
-// Gib erst die verbleibenden Lebenspunkte und dann das Ergebnis mit var_dump() aus.
+// Verwende eine while-Schleife, um von 10 rückwärts bis 1 zu zählen.
+// Wenn du bei 5 angekommen bist, gib zusätzlich aus:
+// "Halbzeit des Duells!"
+
+
+// ------------------------------------------------------
+// BOSSFIGHT - Die Schlacht von Hogwarts
+// Thema: Verschachtelte Schleifen
+// ------------------------------------------------------
 
 
 // Aufgabe 33:
-// Erstelle zwei Variablen:
-// $horcruxeGesamt = 7;
-// $horcruxeGefunden = 3;
-// Berechne, wie viele Horcruxe noch gefunden werden müssen,
-// und gib das Ergebnis aus.
+// Verwende zwei verschachtelte for-Schleifen,
+// um 3 Duellrunden mit jeweils 2 Zaubersprüchen auszugeben.
 
 
 // Aufgabe 34:
-// Erstelle zwei Variablen:
-// $tag = 9;
-// $stunde = 0.75;
-// Addiere beides und gib das Ergebnis aus.
-// Das Ziel ist Tag 9,75 des Schuljahres.
+// Verwende zwei verschachtelte for-Schleifen,
+// um 5 Reihen von Zauberern auszugeben.
+// Jede Reihe soll 3 Zauberer enthalten.
 
 
 // Aufgabe 35:
-// Erstelle zwei Variablen:
-// $ort = "Hogwarts";
-// $schutzzauberAktiv = true;
-// Prüfe mit &&, ob beides zutrifft,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// ULTRA-BOSS - Die Kammer des Schreckens
-// ------------------------------------------------------
+// Verwende zwei verschachtelte Schleifen,
+// um 4 Klassenzimmer mit jeweils 3 Schülern auszugeben.
 
 
 // Aufgabe 36:
-// Erstelle drei Variablen:
-// $magie = 100;
-// $kraftTrank = 25;
-// $verbrauch = 10;
-// Addiere zuerst die Kraft des Tranks zur Magie,
-// ziehe danach den Verbrauch ab
-// und gib das Endergebnis aus.
+// Erstelle ein Array mit 3 Gruppen,
+// wobei jede Gruppe 2 Zauberer enthält.
+// Gib alle Gruppen und alle Zauberer mit
+// verschachtelten foreach-Schleifen aus.
 
 
 // Aufgabe 37:
-// Erstelle zwei Variablen:
-// $magie = 80;
-// $kostenProZauber = 15;
-// Berechne mit /, wie oft ein Zauber theoretisch möglich ist,
-// und gib das Ergebnis aus.
+// Verwende eine verschachtelte Schleife,
+// um 3 Schultage mit jeweils 4 Unterrichtsstunden auszugeben.
 
 
 // Aufgabe 38:
-// Erstelle zwei Variablen:
-// $restMagie = 80;
-// $kosten = 15;
-// Berechne mit %, wie viel Magie nach möglichst gleichmäßiger Nutzung übrig bleibt,
-// und gib das Ergebnis aus.
+// Verwende zwei verschachtelte for-Schleifen,
+// um folgendes Muster auszugeben:
+//
+// *
+// **
+// ***
+// ****
+// *****
+
+
+// ------------------------------------------------------
+// ULTRA-BOSS - Die Heiligtümer des Todes
+// ------------------------------------------------------
 
 
 // Aufgabe 39:
-// Erstelle zwei Variablen:
-// $zauberCode = 200;
-// $zauberCodeText = "200";
-// Prüfe mit == und mit === den Unterschied,
-// und gib beide Ergebnisse mit var_dump() aus.
+// Erstelle ein Array mit Lebenspunkten:
+// [100, 75, 30, 10, 55]
+// Verwende foreach und gib nur die Zauberer aus,
+// deren Lebenspunkte unter 50 liegen.
 
 
 // Aufgabe 40:
-// Erstelle drei Variablen:
-// $kenntZauber = true;
-// $hatZauberstab = false;
-// $hatFreundeshilfe = true;
-// Prüfe mit logischen Operatoren, ob mindestens eine wichtige Hilfe vorhanden ist,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// ------------------------------------------------------
-// MEGA-CHAMPION - Kreativaufgaben
-// ------------------------------------------------------
+// Erstelle ein Array mit Namen:
+// ["Harry", "Ron", "Hermine", "Neville"]
+// Verwende foreach und gib zu jedem Namen aus:
+// "<Name> ist bereit für das Abenteuer!"
 
 
 // Aufgabe 41:
-// Erstelle eigene Variablen für zwei Hogwarts-Häuser.
-// Nutze mindestens drei verschiedene Operatoren,
-// um Punkte zu addieren, Häuser zu vergleichen und das Ergebnis auszugeben.
+// Erstelle ein Array mit Zahlen von 1 bis 10.
+// Gib mit foreach nur die geraden Zahlen aus.
 
 
 // Aufgabe 42:
-// Erstelle eigene Variablen für einen Zauberer,
-// zum Beispiel:
-// $name, $leben, $magie, $schaden
-// Nutze Operatoren, um ein kleines Duell zu berechnen.
+// Erstelle ein Array mit Artefakten:
+// ["Elderstab", "Auferstehungsstein", "Tarnumhang", "Feuerblitz"]
+// Gib mit foreach alle Artefakte mit Nummerierung aus.
 
 
 // Aufgabe 43:
-// Erstelle eigene Variablen für einen Zaubertrank,
-// zum Beispiel:
-// $zutaten, $verlust, $fund
-// Nutze passende Operatoren, um das Ergebnis zu berechnen
-// und etwas Sinnvolles auszugeben.
+// Erstelle ein Array mit Hauspunkten:
+// [50, 120, 200, 80, 300]
+// Berechne mit einer Schleife die Gesamtsumme.
+
+
+// Aufgabe 44:
+// Erstelle ein Array mit Zaubertränken:
+// [5, 10, 3, 7]
+// Berechne mit einer Schleife,
+// wie viele Tränke insgesamt vorhanden sind.
 
 
 // ------------------------------------------------------
-// EXTRA - Freiwillige Zusatzaufgaben
+// MEGA-CHAMPION - Der Sieg über Voldemort
 // ------------------------------------------------------
 
 
-// Zusatzaufgabe 44:
-// Erstelle zwei Variablen:
-// $schutzzauberAktiv = true;
-// $tuerVerschlossen = true;
-// Prüfe mit &&, ob Hogwarts geschützt ist,
-// und gib das Ergebnis mit var_dump() aus.
+// Aufgabe 45:
+// Verwende eine for-Schleife,
+// um 10 Todesser erscheinen zu lassen.
+// Bei jedem dritten Todesser soll zusätzlich ausgegeben werden:
+// "Gefährlicher Gegner entdeckt!"
 
 
-// Zusatzaufgabe 45:
-// Erstelle eine Variable:
-// $hauspunkte = 101;
-// Prüfe mit dem Modulo-Operator, ob die Zahl gerade oder ungerade ist.
-// Tipp:
-// Wenn der Rest bei Division durch 2 gleich 0 ist, ist die Zahl gerade.
+// Aufgabe 46:
+// Verwende eine while-Schleife,
+// um Hauspunkte zu sammeln, bis mindestens 200 erreicht sind.
+// In jeder Runde bekommst du 25 Hauspunkte.
 
 
-// Zusatzaufgabe 46:
-// Erstelle zwei Variablen:
-// $magie = 50;
-// $bonus = 12;
-// Addiere den Bonus mit +=
-// und gib das Ergebnis aus.
+// Aufgabe 47:
+// Verwende eine do...while-Schleife,
+// um mindestens einmal einen Zauberspruch zu wirken,
+// auch wenn nur noch wenig Magie vorhanden ist.
 
 
-// Zusatzaufgabe 47:
-// Erstelle zwei Variablen:
-// $wort1 = "Lumos";
-// $wort2 = "Maxima";
-// Verbinde beide Wörter mit einem Leerzeichen dazwischen
-// und gib das Ergebnis aus.
+// Aufgabe 48:
+// Erstelle ein Array mit 6 Charakteren und gib alle aus.
+// Wenn ein Charakter "Dumbledore" oder "Voldemort" ist,
+// soll zusätzlich ausgegeben werden:
+// "Legendärer Zauberer!"
 
 
-// Zusatzaufgabe 48:
-// Erstelle eine Variable:
-// $zauberkraft = 500;
-// Verringere die Zahl mit -= um 75
-// und gib das Ergebnis aus.
+// Aufgabe 49:
+// Verwende eine verschachtelte Schleife,
+// um 3 Zauberturniere mit jeweils 4 Aufgaben auszugeben.
 
 
-// Zusatzaufgabe 49:
-// Erstelle zwei Variablen:
-// $todesserWesten = 30;
-// $todesserOsten = 45;
-// Prüfe mit >, wo mehr Todesser sind,
-// und gib das Ergebnis mit var_dump() aus.
-
-
-// Zusatzaufgabe 50:
-// Erstelle eigene Variablen und baue eine kleine Harry-Potter-Rechnung,
-// in der du mindestens verwendest:
-// - einen arithmetischen Operator
-// - einen Vergleichsoperator
-// - einen logischen Operator
-// - einen String-Operator
-
-
+// Aufgabe 50:
+// Erstelle deine eigene Schleifen-Challenge mit:
+// - mindestens 1 for-Schleife
+// - mindestens 1 while-Schleife
+// - mindestens 1 foreach-Schleife
+// Thema: Harry Potter, Hogwarts oder Magie
 ?>
